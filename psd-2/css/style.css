@@ -1,0 +1,259 @@
+/* common part start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+/* common part end */
+
+/* nave part start */
+.nave_bg{
+    position: absolute;
+    width: 100%;
+}
+.nave_bg a h3{
+    color: #ffc155;
+    font-family: 'Pacifico', cursive;
+}
+.nave_bg ul li a{
+    color: #ffff !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px !important;
+}
+.nave_bg ul li a:hover{
+    color: #709dca !important;
+}
+
+/* nave part end */
+
+
+/* banner part start */
+#banner{
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    padding: 250px 0;
+}
+.banner_text{
+    color: #ffff;
+}
+.banner_battun{
+    padding: 40px;
+}
+.banner_text a{
+    padding: 15px 20px;
+    background-color: #16d616;
+    color: #ffff;
+}
+
+/* banner part end */
+
+
+/* service part start */
+.service_text{
+    padding: 50px 0;
+}
+.cervice_text1_left{
+    position: relative;
+    padding: 30px 20px;
+}
+.cervice_text1_left_img{
+    position: absolute;
+    margin-left: -40px;
+}
+.service_text1_right{
+    position: relative;
+    padding: 30px 20px;
+}
+.service_text1_right_img{
+    position: absolute;
+    margin-left: -40px;
+}
+
+/* service part end */
+
+/* idea part start */
+.idea_text{
+    background-color: #ffc155;
+    padding: 50px 40px;
+    color: #ffff;
+}
+.idea_text a{
+    padding: 15px 40px;
+    background-color: #e7ad48;
+    color: #ffff;
+    border: 1.5px solid #cb8d21;
+}
+
+
+/* idea part end */
+
+/* project part start */
+
+#project{
+    padding: 60px 0;
+}
+.project_menu{
+    display: flex;
+}
+.project_text_1{
+    color: #709dca;
+}
+.project_text_2{
+    padding: 30px;
+}
+.project_menu ul li a{
+    padding: 10px 25px;
+    color: #273e4e;
+}
+.project_menu ul li a:hover{
+    background-color: #709dca;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+/* project part end */
+
+/* designer part start */
+.designer_dol{
+    height: 100%;
+}
+
+/* designer part rnd */
+
+/* see part start */
+#see{
+    padding: 50px 0;
+}
+
+/* see part end */
+
+/* news part start */
+
+
+.news_text_left{
+    padding: 25px 30px;
+    background-color: #f6f3f3;
+   
+}
+.news_text_left a{
+    color: #273e4e;
+    font-family: 'Open Sans', sans-serif;
+}   
+.news_text_rigt{
+    padding: 25px 30px;
+    background-color: #f6f3f3;
+    
+   
+}
+.news_text_rigt a{
+    color: #273e4e;
+    font-family: 'Open Sans', sans-serif;
+}
+.news_text_left_male h6{
+   padding: 20px 50px;
+   color: #949596;
+}
+.news_text_left_male h6 span{
+    color: #4d4e50;
+}
+.news_text_left_male img{
+    position: absolute;
+    padding: 10px 0;
+}
+.news_text_rigt_male img{
+    position: absolute;
+    padding: 10px 0;
+}
+.news_text_rigt_male h6{
+    padding: 20px 50px;
+    color: #949596;
+}
+.news_text_rigt_male h6 span{
+    color: #4d4e50;
+}
+
+
+/* news part end */
+
+/* apps part start */
+#apps{
+    padding: 5px 0;
+    background-color: #273a43;
+    margin-top: 40px;
+    color: #ffff;
+}
+.apps_text_tow i{
+    color: #709dca;
+}
+.apps_text_three{
+    position: relative;
+}
+.apps_text_three i{
+    position: absolute;
+    margin-left: -20px;
+    padding: 10px 0;
+    color: #709dca;
+}
+.apps_text_three span{
+    color: #709dca;
+    
+}
+.apps_end_part{
+    background-color: #172227;
+    padding: 13px 0;
+}
+.apps_end_part_text_icon {
+    padding: 13px;
+    
+}
+.apps_end_part_text_icon i:hover{
+    background-color: #709dca;
+   padding: 8px 8px;
+}
+.apps_end_part_text{
+    padding: 13px 0;
+}
+.apps_text_four_pap input{
+    background-color: #cb8d21;
+    color: #ffff;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.apps_text_four_pap button{
+    background-color: #709dca;
+    color: #ffff;
+    border: none;
+    margin-left: -5px;
+    height: 30px;
+    width: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* apps part end */
+
+/* end part start */
+
+
+/* end part end */
+
+
